@@ -29,18 +29,15 @@ else {
     console.log("Es impar");
 }
 //ejercicio 4
-var num1 = 2, num2 = 2;
+var num1 = 1, num2 = 2;
 if (num1 > num2) {
-    console.log("Num 1 es mayor");
+    console.log("Num 1 es mayor, Num 2 es menor, Son diferentes");
 }
-else if (num1 < num2) {
-    console.log("Num 2 es menor");
+else if (num2 < num1) {
+    console.log("Num 1 es menor, Num 2 es mayor, Son diferentes");
 }
 else if (num1 == num2) {
-    console.log("Son iguales");
-}
-else {
-    console.log("Son diferentes");
+    console.log("Num 1 y Num 2 son iguales");
 }
 //ejercicio 5
 var dia = 5;
@@ -65,6 +62,10 @@ else if (dia == 6) {
 else if (dia == 7) {
     console.log("el dia es domingo");
 }
+else if (dia = 8) {
+    console.log("error");
+}
+//ejercicio 6
 var hora = 12;
 var minuto = 58;
 var segundo = 43;
@@ -77,3 +78,32 @@ if (pm == true) {
     segundos_transcurridos += 3600 * 12;
 }
 console.log(segundos_transcurridos);
+//ejercicio 7
+var numero1 = -2;
+if (numero1 >= 0) {
+    console.log("Positivo");
+}
+else {
+    console.log("Negativo");
+}
+//ejercicio 8
+var edadniño = 28;
+if (edadniño < 12) {
+    console.log("Niño");
+}
+else if (edadniño >= 12 && edadniño <= 17) {
+    console.log("Adolecente");
+}
+else if (edadniño >= 18 && edadniño <= 55) {
+    console.log("Adulto");
+}
+else if (edadniño >= 56) {
+    console.log("Adulto Mayor");
+}
+//ejercicio 9
+var precio = 1800;
+var limite = true;
+if (limite == true) {
+    precio / 100;
+}
+console.log(precio);
