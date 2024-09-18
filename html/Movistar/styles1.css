@@ -5,7 +5,7 @@ nav {
 }
 
 nav a {
-    font-size: xx-large;
+    font-size: x-large;
     padding: 40px;
     float: left;
     color: white;
@@ -16,7 +16,7 @@ header div {
     border: 5px solid rgb(51, 125, 223);
     text-align: center;
     font-size: 40px;
-    border-radius: 80cap;
+    border-radius: 200px;
     background-color: rgb(51, 125, 223);
     color: white;
 }
@@ -28,4 +28,63 @@ header a {
 
 img {
     padding: 1cap;
+}
+
+.fondo-azul {
+    width: 500px;
+    border: 30px solid rgb(51, 125, 223);
+    background-color: rgb(51, 125, 223);
+    color: white;
+    margin-top: 50px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fondo-gris {
+    width: 500px;
+    border: 30px solid rgb(202, 202, 202);
+    background-color: rgb(202, 202, 202);
+    color: rgb(77, 77, 77);
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 100px 0px 100px;
+    border-radius: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.lado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cuadro-azul {
+    width: 400px;
+    border: 30px solid rgb(51, 125, 223);
+    background-color: rgb(51, 125, 223);
+    border-radius: 50px;
+    color: white;
+}
+
+.cuadro-gris {
+    width: 400px;
+    border: 30px solid rgb(202, 202, 202);
+    background-color: rgb(202, 202, 202);
+    border-radius: 50px;
+    color: rgb(77, 77, 77);
+}
+
+.cuadros {
+    display: flex;
+}
+
+section h1 {
+    width: 400px;
+    border: 30px solid rgb(23, 175, 69);
+    background-color: rgb(23, 175, 69);
+    border-radius: 50px;
+    color: white;
 }
