@@ -1,24 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre&display=swap");
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+}
 nav {
     background-color: rgb(24, 137, 212);
-    width: 100%;
     overflow: hidden;
+    width: 100%;
 }
 
 nav a {
+    position: relative;
     font-size: x-large;
     padding: 40px;
     float: left;
     color: white;
     text-decoration: none;
-}
-
-header div {
-    border: 5px solid rgb(51, 125, 223);
-    text-align: center;
-    font-size: 40px;
-    border-radius: 200px;
-    background-color: rgb(51, 125, 223);
-    color: white;
 }
 
 header a {
@@ -48,11 +46,10 @@ img {
     color: rgb(77, 77, 77);
     border-radius: 100px;
     margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 0px 100px 0px 100px;
     border-radius: 200px;
     text-align: center;
     font-size: 30px;
+
 }
 
 .lado {
@@ -61,30 +58,121 @@ img {
     justify-content: space-around;
 }
 
+.cuadro-celeste {
+    display: flex;
+    width: 10w;
+    border: 50px solid rgb(28, 191, 219);
+    border-radius: 100rem;
+    background-color: rgb(28, 191, 219);
+}
+
 .cuadro-azul {
-    width: 400px;
+    width: 250px;
     border: 30px solid rgb(51, 125, 223);
     background-color: rgb(51, 125, 223);
     border-radius: 50px;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
 .cuadro-gris {
-    width: 400px;
+    width: 250px;
     border: 30px solid rgb(202, 202, 202);
     background-color: rgb(202, 202, 202);
     border-radius: 50px;
     color: rgb(77, 77, 77);
-}
-
-.cuadros {
-    display: flex;
+    padding: 10px;
 }
 
 section h1 {
-    width: 400px;
-    border: 30px solid rgb(23, 175, 69);
+    width: 300px;
+    border: 10px solid rgb(23, 175, 69);
     background-color: rgb(23, 175, 69);
     border-radius: 50px;
     color: white;
+    text-align: center;
+    font-size: medium;
+}
+
+footer {
+    color: rgb(104, 104, 104);
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    padding: 0px 1060px;
+}
+
+.cuadro-img {
+    border-radius: 30px;
+    margin: 0px 300px;
+    display: flex;
+    align-items: center;
+    width: 840px;
+    background-color: rgb(28, 191, 219);
+    border: 10px solid;
+    border-color: rgb(28, 191, 219);
+}
+
+.img1 {
+    width: 400px;
+    height: 500px;
+}
+
+.img2 {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(46, 171, 255);
+}
+
+.img2 h1 {
+    display: flex;
+    align-items: center;
+    margin: 45px;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 15px;
+    font-size: medium;
+    color: rgb(104, 104, 104);
+    text-align: center;
+}
+
+body {
+    background-image: url(img/fondo-azul.jpg);
+}
+
+.ima {
+    display: flex;
+    align-items: center;
+}
+
+.img-telefonica {
+    width: 900px;
+    height: 400px;
+}
+
+.img-cuadro {
+    display: flex;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(28, 191, 219);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.texto-cuadro {
+    border-radius: 20px;
+    margin: 35px;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(24, 137, 212);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
 }
